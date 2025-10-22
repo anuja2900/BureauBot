@@ -1,0 +1,4 @@
+PyMuPDF
+google-generativeai
+streamlit
+typing-extensions
