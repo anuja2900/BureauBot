@@ -33,7 +33,7 @@
 As a team of four immigrants navigating the complex U.S. immigration system, we personally experienced the challenges of filling out multiple forms, understanding eligibility requirements, and finding reliable information. There was no single, trustworthy platform where all our questions could be answered efficiently. The process was time-consuming, stressful, and often confusing, which inspired us to develop **BureauBot** — a chatbot designed specifically to simplify the immigration process.
 
 <p align="center">
-  <img src="User logs in and enters query (1).png" alt="BureauBot User Flow" width="600"/>
+  <img src="Flow chart.png" alt="BureauBot User Flow" width="600"/>
 </p>
 
 
@@ -87,7 +87,7 @@ By addressing these pain points, BureauBot reduces the cognitive load on immigra
 - **Reliable and Efficient:** By leveraging pre-trained LLMs and structured data from official sources, BureauBot minimizes latency while maintaining high accuracy.
 
 <p align="center">
-  <img src="Untitled diagram-2025-10-25-195308.png" alt="BureauBot Diagram" width="600"/>
+  <img src="Untitled diagram-2025-10-27-015507.png" alt="BureauBot Diagram" width="600"/>
 </p>
 
 ### Methodology
@@ -106,4 +106,5 @@ By addressing these pain points, BureauBot reduces the cognitive load on immigra
 All data was **curated directly from official sources**, extracted for metadata, and structured to train the LLM. This ensures BureauBot delivers **accurate, trustworthy, and domain-specific guidance** for users navigating the U.S. immigration system.  
 
  ---
+
 
