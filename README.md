@@ -40,12 +40,7 @@ As a team of four immigrants navigating the complex U.S. immigration system, we 
 Although a few emerging AI tools provide limited assistance with immigration-related questions or automate form entry for specific use cases, there is currently **no comprehensive, consumer-facing solution** that integrates both — **conversational guidance and automated form-filling** — across a wide range of U.S. immigration forms. Most existing tools either focus on a single form type (e.g., naturalization) or are designed for legal firms rather than individuals.  
 
 This clear gap in accessibility and usability motivated us to build **BureauBot** — a unified platform that not only answers immigration queries with accuracy and reliability but also assists users in completing and generating properly filled immigration forms tailored to their specific situations.
-
-### Common Challenges Faced by International Students and Immigrants
-- **Information Overload:** Immigrants often have to search across multiple government websites and documents to find the right forms and instructions.  
-- **Complex Forms:** Many forms are lengthy, with technical language and conditional sections, making them difficult to fill correctly without guidance.  
-- **Eligibility Confusion:** Determining which forms apply to a specific case is not always straightforward.  
-- **Time and Stress:** The process is slow, stressful, and prone to errors, leading to delays or incorrect submissions.  
+ 
 
 ### Common Challenges Faced by International Students and Immigrants
 - **Information Overload:** Immigrants often have to search across multiple government websites and documents to find the right forms and instructions.  
@@ -106,5 +101,6 @@ By addressing these pain points, BureauBot reduces the cognitive load on immigra
 All data was **curated directly from official sources**, extracted for metadata, and structured to train the LLM. This ensures BureauBot delivers **accurate, trustworthy, and domain-specific guidance** for users navigating the U.S. immigration system.  
 
  ---
+
 
 
