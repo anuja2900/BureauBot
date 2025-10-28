@@ -1,21 +1,21 @@
-# 🏛️ **Bureaubot**
+# **Bureaubot**
 
 **Bureaubot** is an AI assistant that simplifies immigration paperwork. It identifies the right form, asks only the questions that matter, and fills official PDFs accurately—saving users hours of waiting and the high costs of legal help.
 
 ---
 
-## 📚 **Table of Contents**
+## **Table of Contents**
 1. [Project Motivation](#project-motivation)  
 2. [Overview of Bureaubot](#overview-of-bureaubot)  
 3. [How It Works](#how-it-works)  
 4. [Bureaubot’s Market Fit and Growth Potential](#bureaubots-market-fit-and-growth-potential)  
 5. [Future Works](#future-works)  
 6. [Tools Utilized](#tools-utilized)  
-7. [About the Team](#about-the-team)  
+7. [Meet the Team](#meet-the-team)  
 
 ---
 
-## 💡 **Project Motivation**
+## **Project Motivation**
 
 ### **Background**
 As a team of four immigrants navigating the complex U.S. immigration system, we personally experienced the challenges of filling out multiple forms, understanding eligibility requirements, and finding reliable information. There was no single, trustworthy platform where all our questions could be answered efficiently. The process was time-consuming, stressful, and often confusing, which inspired us to develop **Bureaubot**.
@@ -36,7 +36,7 @@ This gap motivated us to build **Bureaubot**—a unified platform that combines 
 
 ---
 
-## 🧭 **Overview of Bureaubot**
+## **Overview of Bureaubot**
 
 <img width="1051" height="379" alt="Flow chart" src="https://github.com/user-attachments/assets/79d1adf6-8c26-4ac6-818f-6c72664a7953" />
 
@@ -55,7 +55,7 @@ This gap motivated us to build **Bureaubot**—a unified platform that combines 
 
 ---
 
-## 🔬 **Methodology**
+## **Methodology**
 
 **Step 1: Large Language Model Integration**  
 Leveraged **Gemini 2.0** to interpret user queries and generate precise, context-aware responses, fine-tuned on immigration forms and metadata for reliability.
@@ -74,7 +74,7 @@ Integrated consistency checks, dependency validation, and error handling to ensu
 
 ---
 
-## 🧱 **Data Architecture**
+## **Data Architecture**
 
 Bureaubot’s data architecture is grounded entirely in **official government sources**—including **USCIS**, **CBP**, **EOIR**, and **ICE**.  
 All forms and instructions are regularly collected and converted into structured **YAML** and **JSON** schemas defining field types, validation rules, dependencies, and filing conditions.
@@ -131,7 +131,7 @@ By combining **AI-guided form selection**, **contextual interviews**, and **prec
 
 ---
 
-## 🚀 **Future Works**
+## **Future Works**
 
 Future development focuses on expanding **reliability, reach, and accessibility**:
 
@@ -144,7 +144,7 @@ Bureaubot’s long-term vision is to become the **trusted infrastructure layer f
 
 ---
 
-## 🧰 **Tools Utilized**
+## **Tools Utilized**
 
 | **Category** | **Tool(s)** |
 |---------------|-------------|
@@ -158,9 +158,10 @@ Bureaubot’s long-term vision is to become the **trusted infrastructure layer f
 
 ---
 
-## 👥 **About the Team**
+## **Meet the Team**
 
 **Minh Phan**  
 **Anuja Tipare**  
 **Connor Yeh**  
 **Kanav Goyal**
+
