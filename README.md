@@ -2,6 +2,8 @@
 
 Your AI Assistant for Immigration Guidance & Form Filling </h1>
 
+![bureaubot](https://github.com/user-attachments/assets/eebd0d1e-2735-4f62-abe9-81cb27fbf7b7)
+
 **Bureaubot** is an AI assistant that simplifies immigration paperwork. It identifies the right form, asks only the questions that matter, and fills official PDFs accurately—saving users hours of waiting and the high costs of legal help.
 
 ---
@@ -201,5 +203,6 @@ Bureaubot’s long-term goal is to become a trusted infrastructure layer for leg
 **Anuja Tipare**  
 **Connor Yeh**  
 **Kanav Goyal**
+
 
 
