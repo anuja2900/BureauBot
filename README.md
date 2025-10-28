@@ -1,4 +1,6 @@
-# **Bureaubot**
+<h1 align="center">Bureaubot: Bureaucracy, Simplified
+
+Your AI Assistant for Immigration Guidance & Form Filling </h1>
 
 **Bureaubot** is an AI assistant that simplifies immigration paperwork. It identifies the right form, asks only the questions that matter, and fills official PDFs accurately—saving users hours of waiting and the high costs of legal help.
 
@@ -21,24 +23,26 @@
 As a team of four immigrants navigating the complex U.S. immigration system, we personally experienced the challenges of filling out multiple forms, understanding eligibility requirements, and finding reliable information. There was no single, trustworthy platform where all our questions could be answered efficiently. The process was time-consuming, stressful, and often confusing, which inspired us to develop **Bureaubot**.
 
 ### **Challenges Faced by International Students and Immigrants**
-- **Information Overload:** Immigrants often have to search across multiple government websites and documents to find the right forms and instructions.  
-- **Complex Forms:** Many forms are lengthy, with technical language and conditional sections, making them difficult to fill correctly without guidance.  
-- **Eligibility Confusion:** Determining which forms apply to a specific case is not always straightforward.  
-- **Time and Stress:** The process is slow, stressful, and prone to errors, leading to delays or incorrect submissions.  
-- **High Cost of Professional Help:** Legal consultations are expensive, often inaccessible for students or first-time applicants.  
+- **Information Overload:** Immigrants often have to search across multiple government websites and documents to find the right forms and instructions.
+- **Complex Forms:** Many forms are lengthy, with technical language and conditional sections, making them difficult to fill correctly without guidance.
+- **Eligibility Confusion:** Determining which forms apply to a specific case is not always straightforward.
+- **Time and Stress:** The process is slow, stressful, and prone to errors, leading to delays or incorrect submissions.
+- **High Cost of Professional Help:** When unsure, many individuals turn to immigration attorneys or consultants, which can be very expensive, especially for students or first-time applicants. 
 
 Bureaubot aims to **streamline and simplify the immigration process** through an interactive, guardrailed workflow that connects a user’s situation to the correct form, asks only what’s necessary, and fills the official PDF reliably—while generating a checklist that flags inconsistencies and missing attachments.
 
 ### **Why Bureaubot?**
-Existing AI tools either provide limited assistance or handle form-filling for isolated cases. There is **no comprehensive, consumer-facing solution** that integrates both **conversational guidance** and **automated form completion** across a broad range of U.S. immigration forms.  
 
-This gap motivated us to build **Bureaubot**—a unified platform that combines accuracy, structure, and accessibility for anyone navigating immigration paperwork.
+Although a few emerging AI tools provide limited assistance with immigration-related questions or automate form entry for specific use cases, there is currently **no comprehensive, consumer-facing solution** that integrates both — **conversational guidance** and **automated form-filling** — across a wide range of U.S. immigration forms.  
+
+Most existing tools either focus on a single form type (e.g., naturalization) or are built primarily for **legal firms** rather than individuals.  
+
+This clear gap in accessibility and usability motivated us to build **Bureaubot** — a unified platform that not only answers immigration queries with accuracy and reliability but also assists users in completing and generating properly filled immigration forms tailored to their specific situations.
+
 
 ---
 
 ## **Overview of Bureaubot**
-
-<img width="1051" height="379" alt="Flow chart" src="https://github.com/user-attachments/assets/79d1adf6-8c26-4ac6-818f-6c72664a7953" />
 
 ### **Demo**
 
@@ -57,91 +61,124 @@ This gap motivated us to build **Bureaubot**—a unified platform that combines 
 
 ## **Methodology**
 
-**Step 1: Large Language Model Integration**  
-Leveraged **Gemini 2.0** to interpret user queries and generate precise, context-aware responses, fine-tuned on immigration forms and metadata for reliability.
+### **Step 1: Large Language Model Integration**
+Leveraged **Gemini 2.0** to interpret user queries and generate precise, context-aware responses.  
+The model was fine-tuned using immigration forms and metadata from official government sources to ensure domain-specific understanding and reliability.  
 
-**Step 2: Form Metadata Extraction**  
-Parsed official immigration forms to extract structures, requirements, and conditional logic, building an accurate mapping system for each form.
+### **Step 2: Form Metadata Extraction**
+Downloaded official immigration forms and extracted their **field structures, requirements, and conditional rules**.  
+This metadata trains the system to recognize each field’s context and accurately map user-provided information.  
 
-**Step 3: Multi-Step Prompting**  
-Applied iterative prompting to transform free-form input into structured, field-aligned data validated against schemas.
+### **Step 3: Multi-Step Prompting**
+Applied **iterative prompting techniques** to transform free-form user input into structured data aligned with form schemas.  
+Each exchange refines and validates the user’s responses, ensuring every detail corresponds to the correct field.  
 
-**Step 4: Automated Form Population**  
-Used **PyMuPDF** to fill PDFs programmatically with structured data, ensuring submission-ready documents.
+### **Step 4: Automated Form Population**
+Integrated **PyMuPDF** to programmatically populate PDF forms using the structured data output from the LLM.  
+This step produces **submission-ready documents** while maintaining official formatting and field integrity.  
 
-**Step 5: Validation and Accuracy Checks**  
-Integrated consistency checks, dependency validation, and error handling to ensure compliance with official standards.
+### **Step 5: Validation and Accuracy Checks**
+Implemented **consistency checks, dependency validation, and error handling** to detect missing or mismatched entries.  
+This ensures that all completed forms comply with official standards, reducing user errors and rejections.
 
 ---
 
 ## **Data Architecture**
 
-Bureaubot’s data architecture is grounded entirely in **official government sources**—including **USCIS**, **CBP**, **EOIR**, and **ICE**.  
-All forms and instructions are regularly collected and converted into structured **YAML** and **JSON** schemas defining field types, validation rules, dependencies, and filing conditions.
+Bureaubot’s data architecture is grounded entirely in **official government sources**, including the **U.S. Citizenship and Immigration Services (USCIS)**, **Customs and Border Protection (CBP)**, **Executive Office for Immigration Review (EOIR)**, and **Immigration and Customs Enforcement (ICE)**.  
 
-These schemas are stored in a centralized **form dictionary**, the system’s single source of truth.  
-Unlike typical AI tools, Bureaubot does **not rely on LLM memory or live web searches**. Instead, it maintains its own verified database reflecting the most recent form versions and policies.
+All forms, filing instructions, and policy materials are periodically downloaded, parsed, and converted into structured **YAML** and **JSON** schemas that define field types, validation rules, dependencies, and filing conditions.  
 
-The system periodically checks official agency websites for updates and automatically integrates changes into its metadata pipeline—ensuring **accuracy, compliance, and adaptability** in a shifting political and legal climate.
+These schemas are stored in a centralized **form dictionary**, which serves as the system’s single source of truth—governing how forms are interpreted, validated, and populated.  
+
+Rather than depending on live web searches or LLM-generated knowledge, Bureaubot maintains its own **curated, verifiable database** that reflects the most recent versions of every form and instruction.  
+
+The system routinely checks official agency websites for updates to form versions and procedural guidance. When changes occur, they are automatically integrated into the metadata pipeline, ensuring that Bureaubot always operates with **current, authoritative information** while remaining **fully offline and reproducible**.  
+
+This design guarantees both **accuracy** and **transparency** in an ever-evolving immigration environment.
+
 
 ---
 
-## ⚙️ **How It Works**
+## **How It Works**
 
 <img width="3282" height="813" alt="Untitled diagram-2025-10-27-015507" src="https://github.com/user-attachments/assets/b63bba96-0d9a-40e5-9927-00646e90263c" />
 
 
-### **Bureaubot’s Brain: Our LLM Agents**
+## **Bureaubot’s Brain: Our LLM Agents**
 
-**Form Selection Agent**  
-Analyzes the user’s description and matches it with the most relevant immigration forms (e.g., EOIR-29, CBP 3124).  
-Considers context like filing type, decision source, and timing.
+At the core of Bureaubot is a small, focused network of agents that turns messy real-world scenarios into a clean, reviewable packet.
 
-**Interview Agent**  
-Turns each form’s schema into a structured, one-question-at-a-time interview.  
-Automatically handles dependent questions and formatting rules.
+### **Form Selection Agent**
+Takes the user’s plain-English situation (e.g., “My green card application was denied by an immigration judge — what now?”) and matches it to candidate forms using a reference catalog and light metadata (eligibility notes, filing venues, typical attachments).  
+Outputs the top form(s) with a confidence explanation and next steps.  
 
-**Validation Agent**  
-Checks for missing data, invalid dates, or mismatched fields using YAML/JSON-based rule sets.
+**Context-Aware Selection:**  
+The agent considers filing posture (appeal vs. initial), decision source (IJ vs. USCIS), and timing cues (deadlines, within/after window) to avoid obvious mismatches.
 
-**PDF Filling Agent**  
-Writes responses into the correct form fields—text, checkbox, radio, or multibox—with stable formatting.  
-Outputs: `filled.pdf`, `answers.json`, `review.md`.
+
+### **Interview Agent**
+Turns each form’s field schema into a sequential, minimal interview. Every question maps to a real field or a rule prerequisite (no meandering chit-chat).  
+Captures values, formats them (e.g., **MM/DD/YYYY**), and logs an `answers.json` file for auditing.  
+
+**Dependency-Aware Prompts:**  
+If a checkbox implies a sub-section, questions branch automatically.  
+If a field is derived (e.g., full name from given/middle/family), derivations remain consistent across the packet.
+
+
+### **Validation Agent**
+Backed by a rule rubric (`YAML`/`JSON`), this agent runs cross-checks and emits actionable messages:
+- Date ordering (e.g., filing date vs. decision date)  
+- Required fields and sections  
+- Consistency across repeated fields (name, A-Number)  
+- Attachment expectations (e.g., decision notice, fee payment proof)
+
+
+### **PDF Filling Agent**
+A deterministic writer that maps canonical field names to **AcroForm fields or coordinates**:
+- Text boxes with formatting (names, addresses, phones)  
+- Multi-box entries (A-Numbers, SSNs, date components)  
+- Checkbox/Radio selections with stable on/off values  
+- Repeat fills for fields that appear in multiple locations  
+
+**Outputs:** `filled.pdf`, `answers.json`, and a concise `review.md`.
+
 
 ### **Bureaubot’s Interface: Your Filing Playground**
-- **Clean, guided screens:** One question at a time.  
-- **Live preview:** Optional “field heatmap” view.  
-- **Fix-list panel:** Highlights issues for quick corrections.  
-- **Session resume:** Auto-saves progress in `answers.json`.  
-- **Easy export:** Download all completed artifacts in one click.
+
+<img width="1051" height="379" alt="Flow chart" src="https://github.com/user-attachments/assets/79d1adf6-8c26-4ac6-818f-6c72664a7953" />
+
+Designed to feel like a conversation but behave like a form engine.
+
+- **Clean, guided screens:** One question at a time with clear helper text.  
+- **Live preview:** Optional PDF preview with “field heatmap” when supported.  
+- **Fix-list panel:** See warnings as they appear; click to jump directly to the question.  
+- **Session resume:** Come back later—your progress persists in `answers.json`.  
+- **Export packet:** Download `filled.pdf`, `answers.json`, and `review.md` in one click.
 
 ---
 
-## 💸 **Bureaubot’s Market Fit and Growth Potential**
+## **Bureaubot’s Market Fit and Growth Potential**
 
-Bureaubot is strategically positioned in the **legal automation and immigrant-services** market, addressing growing barriers to affordable and timely legal support.  
-By combining **AI-guided form selection**, **contextual interviews**, and **precise PDF filling**, Bureaubot turns a complex, stressful process into a clear, reliable experience.
+Bureaubot is strategically positioned within the rapidly expanding legal automation and immigrant-services market, where individuals face increasing barriers to affordable and timely legal support. By combining AI-guided form selection, contextual Q&A, and precise PDF completion, Bureaubot transforms a traditionally stressful, error-prone process into a clear, reliable experience.
 
-**With hours-long clinic wait times and high legal costs**, Bureaubot offers a scalable alternative that saves time without compromising accuracy or compliance.
+With hours-long wait times at legal clinics and the high cost of professional assistance, Bureaubot offers a scalable alternative that preserves accuracy without replacing human oversight. Its schema-first approach and audit-ready output make it a trustworthy companion for both self-filers and institutions.
 
-### **Target Audience**
-- **Self-Filers:** Accessible, structured guidance and submission-ready PDFs.  
-- **Community Clinics & Nonprofits:** Standardized intakes and reduced workloads.  
-- **Paralegals & Attorneys:** Faster packet preparation and error reduction.
+**Target Audience:**
+- **Self-Filers:** Individuals navigating immigration paperwork alone gain accessible, structured guidance and automatically formatted, submission-ready PDFs.
+- **Community Clinics and Nonprofits:** Legal aid and student organizations benefit from standardized intakes, faster packet preparation, and reduced staff workload.
+- **Paralegals and Attorneys:** Legal professionals use Bureaubot to pre-fill and verify forms efficiently, minimizing clerical errors and improving turnaround time.
 
 ---
 
 ## **Future Works**
 
-Future development focuses on expanding **reliability, reach, and accessibility**:
-
-- **Product:** Real-time PDF previews, multi-form packet support, resumable sessions.  
-- **Intelligence:** Larger rule library, attachment inference, multilingual support.  
-- **Platform:** Secure API for clinics and firms, e-signature integration, and cloud export.  
+Future development focuses on enhancing reliability, reach, and accessibility:
+- **Product:** Interactive PDF previews with real-time field mapping, multi-form packet support, and resumable interviews.
+- **Intelligence:** Expanded rule libraries, attachment inference, and multilingual interviews.
+- **Platform:** Secure, containerized deployment with API access for clinics and firms; optional e-signature integration and cloud export.
 - **Computer Vision:** Extract form data directly from scanned documents.
-
-Bureaubot’s long-term vision is to become the **trusted infrastructure layer for legal document automation**—making bureaucratic processes faster, fairer, and more human.
-
+Bureaubot’s long-term goal is to become a trusted infrastructure layer for legal document automation—a tool that reduces friction, saves time, and brings bureaucratic processes within reach for everyone.
 ---
 
 ## **Tools Utilized**
@@ -164,4 +201,5 @@ Bureaubot’s long-term vision is to become the **trusted infrastructure layer f
 **Anuja Tipare**  
 **Connor Yeh**  
 **Kanav Goyal**
+
 
