@@ -55,7 +55,6 @@ This clear gap in accessibility and usability motivated us to build **Bureaubot*
 - **Interactive Q&A:** Offers accurate, context-specific answers about eligibility, documentation, and requirements.  
 - **Automated Form Filling:** Uses **PyMuPDF** to populate forms automatically and correctly.  
 - **Domain-Specific LLM:** Trained exclusively on immigration data to minimize irrelevant or incorrect responses.  
-- **Reliable and Efficient:** Combines pre-trained LLMs with structured metadata for accurate, fast results.  
 
 > ⚠️ *Not legal advice. Bureaubot is a research project and does not replace an attorney.*
 
@@ -203,6 +202,7 @@ Bureaubot’s long-term goal is to become a trusted infrastructure layer for leg
 **Anuja Tipare**  
 **Connor Yeh**  
 **Kanav Goyal**
+
 
 
 
