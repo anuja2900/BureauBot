@@ -13,7 +13,7 @@ Your AI Assistant for Immigration Guidance & Form Filling </h1>
 2. [Overview of Bureaubot](#overview-of-bureaubot)  
 3. [How It Works](#how-it-works)  
 4. [Bureaubot’s Market Fit and Growth Potential](#bureaubots-market-fit-and-growth-potential)  
-5. [Future Works](#future-works)  
+5. [Future Scope](#future-scope)  
 6. [Tools Utilized](#tools-utilized)  
 7. [Meet the Team](#meet-the-team)  
 
@@ -218,6 +218,7 @@ By incorporating these advanced features, BureauBot can evolve into a **comprehe
 **Anuja Tipare**  
 **Connor Yeh**  
 **Kanav Goyal**
+
 
 
 
