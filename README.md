@@ -172,14 +172,30 @@ With hours-long wait times at legal clinics and the high cost of professional as
 
 ---
 
-## **Future Works**
+## **Future Scope**
 
-Future development focuses on enhancing reliability, reach, and accessibility:
-- **Product:** Interactive PDF previews with real-time field mapping, multi-form packet support, and resumable interviews.
-- **Intelligence:** Expanded rule libraries, attachment inference, and multilingual interviews.
-- **Platform:** Secure, containerized deployment with API access for clinics and firms; optional e-signature integration and cloud export.
-- **Computer Vision:** Extract form data directly from scanned documents.
-Bureaubot’s long-term goal is to become a trusted infrastructure layer for legal document automation—a tool that reduces friction, saves time, and brings bureaucratic processes within reach for everyone.
+BureauBot has significant potential for expansion and enhancement. In future iterations, the following capabilities can be integrated to make it even more accessible, intelligent, and inclusive:
+
+1. **Voice Interaction (Speech-to-Text):**  
+   Enable users to interact with BureauBot through natural speech, allowing voice-based form guidance and dictation for hands-free accessibility.
+
+2. **Multilingual Support:**  
+   Incorporate translation features to assist users who are not fluent in English, making immigration guidance available in multiple languages.
+
+3. **Document Scanning & Validation (Computer Vision):**  
+   Use computer vision to automatically read, interpret, and validate uploaded documents or pre-filled forms, ensuring completeness and correctness before submission.
+
+4. **Optical Character Recognition (OCR):**  
+   Integrate OCR capabilities to extract data directly from physical documents (e.g., passports, ID cards) for automated form population.
+
+5. **Form Progress Tracking & Notifications:**  
+   Allow users to save form progress, receive reminders, and get real-time updates about form status or policy changes.
+
+6. **Legal Aid Integration:**  
+   Connect users to verified immigration lawyers or legal aid resources for complex cases where expert review is necessary.
+
+By incorporating these advanced features, BureauBot can evolve into a **comprehensive, AI-driven immigration assistant** — bridging the gap between automation, accessibility, and trust in digital immigration services.
+
 ---
 
 ## **Tools Utilized**
@@ -202,6 +218,7 @@ Bureaubot’s long-term goal is to become a trusted infrastructure layer for leg
 **Anuja Tipare**  
 **Connor Yeh**  
 **Kanav Goyal**
+
 
 
 
