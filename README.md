@@ -86,18 +86,22 @@ This ensures that all completed forms comply with official standards, reducing u
 
 ## **Data Architecture**
 
-Bureaubot’s data architecture is grounded entirely in **official government sources**, including the **U.S. Citizenship and Immigration Services (USCIS)**, **Customs and Border Protection (CBP)**, **Executive Office for Immigration Review (EOIR)**, and **Immigration and Customs Enforcement (ICE)**.  
+<img width="6000" height="1875" alt="datapipeline (1)" src="https://github.com/user-attachments/assets/49854bc2-a30c-4e61-99ac-faca9f0f1047" />
 
-All forms, filing instructions, and policy materials are periodically downloaded, parsed, and converted into structured **YAML** and **JSON** schemas that define field types, validation rules, dependencies, and filing conditions.  
+Bureaubot’s data system is built entirely on official U.S. government sources—USCIS, CBP, EOIR, and ICE. All forms, instructions, and policy materials are routinely collected and processed through a structured update pipeline centered on a single Central Dictionary.
 
-These schemas are stored in a centralized **form dictionary**, which serves as the system’s single source of truth—governing how forms are interpreted, validated, and populated.  
+The pipeline has three stages:
 
-Rather than depending on live web searches or LLM-generated knowledge, Bureaubot maintains its own **curated, verifiable database** that reflects the most recent versions of every form and instruction.  
+Official PDF Forms
+Latest PDFs are scraped directly from agency websites and added to the Central Dictionary.
 
-The system routinely checks official agency websites for updates to form versions and procedural guidance. When changes occur, they are automatically integrated into the metadata pipeline, ensuring that Bureaubot always operates with **current, authoritative information** while remaining **fully offline and reproducible**.  
+Metadata Extraction
+Each PDF is parsed into YAML/JSON schemas defining field types, validation rules, and dependencies for accurate and programmatic form filling.
 
-This design guarantees both **accuracy** and **transparency** in an ever-evolving immigration environment.
+Reference Information
+Filing instructions and contextual details are linked to the metadata, creating a complete reference layer for question flow and validation.
 
+The system automatically checks for new versions and integrates updates, ensuring Bureaubot always operates with current, authoritative, and reproducible information—without relying on live web searches or unverifiable LLM knowledge.
 
 ---
 
@@ -218,6 +222,7 @@ By incorporating these advanced features, BureauBot can evolve into a **comprehe
 **Anuja Tipare**  
 **Connor Yeh**  
 **Kanav Goyal**
+
 
 
 
