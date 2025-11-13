@@ -2,7 +2,7 @@
 
 Your AI Assistant for Immigration Guidance & Form Filling </h1>
 
-<img width="7200" height="1136" alt="bureaubot" src="https://github.com/user-attachments/assets/a5f8e4c0-461c-4337-bb66-40c41306175a" />
+![BureauBot (1)](https://github.com/user-attachments/assets/42654523-726c-4011-8776-4a19c8ef8356)
 
 **Bureaubot** is an AI assistant that simplifies immigration paperwork. It identifies the right form, asks only the questions that matter, and fills official PDFs accurately—saving users hours of waiting and the high costs of legal help.
 
@@ -86,7 +86,8 @@ This ensures that all completed forms comply with official standards, reducing u
 
 ## **Data Architecture**
 
-<img width="6000" height="1875" alt="datapipeline (1)" src="https://github.com/user-attachments/assets/49854bc2-a30c-4e61-99ac-faca9f0f1047" />
+<img width="6000" height="1875" alt="datapipeline (1)" src="https://github.com/user-attachments/assets/1e971ac6-3f0e-4aae-8076-1bddd8adf768" />
+
 
 Bureaubot’s data system is built entirely on official U.S. government sources—USCIS, CBP, EOIR, and ICE. All forms, instructions, and policy materials are routinely collected and processed through a structured update pipeline centered on a single Central Dictionary.
 
@@ -222,6 +223,7 @@ By incorporating these advanced features, BureauBot can evolve into a **comprehe
 **Anuja Tipare**  
 **Connor Yeh**  
 **Kanav Goyal**
+
 
 
 
