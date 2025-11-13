@@ -86,7 +86,7 @@ This ensures that all completed forms comply with official standards, reducing u
 
 ## **Data Architecture**
 
-<img width="6000" height="1875" alt="datapipeline (1)" src="https://github.com/user-attachments/assets/1e971ac6-3f0e-4aae-8076-1bddd8adf768" />
+![datapipeline (1)](https://github.com/user-attachments/assets/d7602d0c-261b-49a5-a2e9-831445ea7181)
 
 
 Bureaubot’s data system is built entirely on official U.S. government sources—USCIS, CBP, EOIR, and ICE. All forms, instructions, and policy materials are routinely collected and processed through a structured update pipeline centered on a single Central Dictionary.
@@ -223,6 +223,7 @@ By incorporating these advanced features, BureauBot can evolve into a **comprehe
 **Anuja Tipare**  
 **Connor Yeh**  
 **Kanav Goyal**
+
 
 
 
