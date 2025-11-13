@@ -156,11 +156,13 @@ A deterministic writer that maps canonical field names to **AcroForm fields or c
 
 BureauBot is designed to feel like a conversation but behave like a form engine.
 
-- **Clean, guided screens:** One question at a time with clear helper text.  
-- **Live preview:** Optional PDF preview with “field heatmap” when supported.  
-- **Fix-list panel:** See warnings as they appear; click to jump directly to the question.  
-- **Session resume:** Come back later—your progress persists in `answers.json`.  
-- **Export packet:** Download `filled.pdf`, `answers.json`, and `review.md` in one click.
+**User Enters a Query:** The user begins by describing their situation or requesting a specific form.
+**Chatbot Asks Clarifying Questions:** Bureaubot collects the necessary context through a guided, one-question-at-a-time interface.
+**User Confirms the Form:** Based on the inputs, Bureaubot recommends the appropriate form and asks the user to confirm before continuing.
+**Chatbot Gathers Required Information:** Relevant form fields are presented in a logical sequence. Conditional logic ensures users only see fields that apply to them.
+**Chatbot Fills the Form:** Responses are mapped to the official YAML/JSON schema, and a clean, validated PDF is generated.
+**Completed Form Is Returned to the User:** The user receives a completed packet, including the filled PDF and supporting data files.
+
 
 ---
 
@@ -223,6 +225,7 @@ By incorporating these advanced features, BureauBot can evolve into a **comprehe
 **Anuja Tipare**  
 **Connor Yeh**  
 **Kanav Goyal**
+
 
 
 
