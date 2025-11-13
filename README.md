@@ -106,7 +106,7 @@ The system automatically checks for new versions and integrates updates, ensurin
 
 ---
 
-## **How It Works**
+## **Our Enginess**
 
 <img width="3282" height="813" alt="Untitled diagram-2025-10-27-015507" src="https://github.com/user-attachments/assets/b63bba96-0d9a-40e5-9927-00646e90263c" />
 
@@ -150,7 +150,7 @@ A deterministic writer that maps canonical field names to **AcroForm fields or c
 **Outputs:** `filled.pdf`, `answers.json`, and a concise `review.md`.
 
 
-### **Bureaubot’s Interface: Your Filing Playground**
+### **How It Works**
 
 ![howitworks (1)](https://github.com/user-attachments/assets/81d98a62-58fa-4ba7-af52-ce2b2360e0c0)
 
@@ -225,6 +225,7 @@ By incorporating these advanced features, BureauBot can evolve into a **comprehe
 **Anuja Tipare**  
 **Connor Yeh**  
 **Kanav Goyal**
+
 
 
 
