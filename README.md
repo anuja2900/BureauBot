@@ -166,9 +166,9 @@ Designed to feel like a conversation but behave like a form engine.
 
 ## **Bureaubot’s Market Fit and Growth Potential**
 
-Bureaubot is strategically positioned within the rapidly expanding legal automation and immigrant-services market, where individuals face increasing barriers to affordable and timely legal support. By combining AI-guided form selection, contextual Q&A, and precise PDF completion, Bureaubot transforms a traditionally stressful, error-prone process into a clear, reliable experience.
+Demand for affordable, dependable immigration support continues to rise as traditional legal services become harder to access and slower to deliver. In this environment, Bureaubot fills a widening gap by offering guided form selection, step-by-step clarification, and structured PDF completion built entirely on verified government data. What is often a confusing and intimidating process becomes organized, consistent, and far less stressful.
 
-With hours-long wait times at legal clinics and the high cost of professional assistance, Bureaubot offers a scalable alternative that preserves accuracy without replacing human oversight. Its schema-first approach and audit-ready output make it a trustworthy companion for both self-filers and institutions.
+Instead of replacing legal experts, Bureaubot works alongside them. Its schema-based approach and standardized outputs help maintain accuracy while giving individuals and institutions a tool that scales when human capacity is limited—whether due to long waitlists, heavy caseloads, or cost barriers.
 
 **Target Audience:**
 - **Self-Filers:** Individuals navigating immigration paperwork alone gain accessible, structured guidance and automatically formatted, submission-ready PDFs.
@@ -223,6 +223,7 @@ By incorporating these advanced features, BureauBot can evolve into a **comprehe
 **Anuja Tipare**  
 **Connor Yeh**  
 **Kanav Goyal**
+
 
 
 
