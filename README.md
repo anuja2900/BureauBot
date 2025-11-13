@@ -108,7 +108,8 @@ The system automatically checks for new versions and integrates updates, ensurin
 
 ## **Our Engines**
 
-<img width="3282" height="813" alt="WhatsApp Image 2025-11-12 at 19.19.16.jpeg" src="https://github.com/user-attachments/assets/b63bba96-0d9a-40e5-9927-00646e90263c" />
+<img width="3282" height="813" alt="WhatsApp Image 2025-11-12 at 19.19.16.jpeg" src="BureauBot/WhatsApp Image 2025-11-12 at 19.19.16.jpeg" />
+
 
 
 ## **Bureaubot’s Brain: Our LLM Agents**
@@ -225,6 +226,7 @@ By incorporating these advanced features, BureauBot can evolve into a **comprehe
 **Anuja Tipare**  
 **Connor Yeh**  
 **Kanav Goyal**
+
 
 
 
