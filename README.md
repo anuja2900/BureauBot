@@ -152,9 +152,9 @@ A deterministic writer that maps canonical field names to **AcroForm fields or c
 
 ### **Bureaubot’s Interface: Your Filing Playground**
 
-<img width="1051" height="379" alt="Flow chart" src="https://github.com/user-attachments/assets/79d1adf6-8c26-4ac6-818f-6c72664a7953" />
+![howitworks (1)](https://github.com/user-attachments/assets/81d98a62-58fa-4ba7-af52-ce2b2360e0c0)
 
-Designed to feel like a conversation but behave like a form engine.
+BureauBot is designed to feel like a conversation but behave like a form engine.
 
 - **Clean, guided screens:** One question at a time with clear helper text.  
 - **Live preview:** Optional PDF preview with “field heatmap” when supported.  
@@ -223,6 +223,7 @@ By incorporating these advanced features, BureauBot can evolve into a **comprehe
 **Anuja Tipare**  
 **Connor Yeh**  
 **Kanav Goyal**
+
 
 
 
