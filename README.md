@@ -108,7 +108,7 @@ The system automatically checks for new versions and integrates updates, ensurin
 
 ## **Our Engines**
 
-<img width="3282" height="813" alt="WhatsApp Image 2025-11-12 at 19.19.16.jpeg" src="BureauBot/WhatsApp Image 2025-11-12 at 19.19.16.jpeg" />
+![WhatsApp Image](https://github.com/anuja2900/BureauBot/blob/main/WhatsApp%20Image%202025-11-12%20at%2019.19.16.jpeg?raw=true)
 
 
 
@@ -226,6 +226,7 @@ By incorporating these advanced features, BureauBot can evolve into a **comprehe
 **Anuja Tipare**  
 **Connor Yeh**  
 **Kanav Goyal**
+
 
 
 
