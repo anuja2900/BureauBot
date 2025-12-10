@@ -48,13 +48,12 @@ This clear gap in accessibility and usability motivated us to build **Bureaubot*
 
 ### **Demo**
 
-[Insert demo link here]
+https://youtu.be/GrFyE-HmMas
 
 ### **Key Features**
-- **Immigration Form Guidance:** Directs users to the correct forms based on their individual circumstances.  
-- **Interactive Q&A:** Offers accurate, context-specific answers about eligibility, documentation, and requirements.  
-- **Automated Form Filling:** Uses **PyMuPDF** to populate forms automatically and correctly.  
-- **Domain-Specific LLM:** Trained exclusively on immigration data to minimize irrelevant or incorrect responses.  
+- **Immigration Form Guidance:** Recommends the right forms based on each user’s situation.
+- **Interactive Q&A:** Provides, clear, tailored answers on eligibility and documentation.
+- **Automated Form Filling:** Accurately pre-populates official PDFs using user data.
 
 > ⚠️ *Not legal advice. Bureaubot is a research project and does not replace an attorney.*
 
@@ -226,6 +225,7 @@ By incorporating these advanced features, BureauBot can evolve into a **comprehe
 **Anuja Tipare**  
 **Connor Yeh**  
 **Kanav Goyal**
+
 
 
 
