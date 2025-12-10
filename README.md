@@ -107,7 +107,9 @@ The system automatically checks for new versions and integrates updates, ensurin
 
 ## **Our Engines**
 
-![Project Brief Deck](https://github.com/user-attachments/assets/25d5940f-0199-4695-bfc7-7d93a65e419a)
+
+![Engine_illustration](https://github.com/user-attachments/assets/f250d284-e570-46a1-81a7-e4cdb74f21eb)
+
 
 At the core of Bureaubot is a small, focused network of agents that turns messy real-world scenarios into a clean, reviewable packet.
 
@@ -221,6 +223,7 @@ By incorporating these advanced features, BureauBot can evolve into a **comprehe
 **Anuja Tipare**  
 **Connor Yeh**  
 **Kanav Goyal**
+
 
 
 
