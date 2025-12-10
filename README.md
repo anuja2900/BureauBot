@@ -107,11 +107,7 @@ The system automatically checks for new versions and integrates updates, ensurin
 
 ## **Our Engines**
 
-![WhatsApp Image](https://github.com/anuja2900/BureauBot/blob/main/WhatsApp%20Image%202025-11-12%20at%2019.19.16.jpeg?raw=true)
-
-
-
-## **Bureaubot’s Brain: Our LLM Agents**
+![Project Brief Deck](https://github.com/user-attachments/assets/25d5940f-0199-4695-bfc7-7d93a65e419a)
 
 At the core of Bureaubot is a small, focused network of agents that turns messy real-world scenarios into a clean, reviewable packet.
 
@@ -225,6 +221,7 @@ By incorporating these advanced features, BureauBot can evolve into a **comprehe
 **Anuja Tipare**  
 **Connor Yeh**  
 **Kanav Goyal**
+
 
 
 
