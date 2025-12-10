@@ -48,8 +48,7 @@ This clear gap in accessibility and usability motivated us to build **Bureaubot*
 
 ### **Demo**
 
-[![Watch here:](https://img.youtube.com/vi/GrFyE-HmMas/0.jpg)](https://youtu.be/GrFyE-HmMas)
-
+[![Watch here](https://img.youtube.com/vi/GrFyE-HmMas/maxresdefault.jpg)](https://youtu.be/GrFyE-HmMas)
 
 ### **Key Features**
 - **Immigration Form Guidance:** Recommends the right forms based on each user’s situation.
@@ -226,6 +225,7 @@ By incorporating these advanced features, BureauBot can evolve into a **comprehe
 **Anuja Tipare**  
 **Connor Yeh**  
 **Kanav Goyal**
+
 
 
 
